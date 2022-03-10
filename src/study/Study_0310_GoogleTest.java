@@ -11,16 +11,14 @@ public class Study_0310_GoogleTest {
 		int cnt = 0;
         StringBuilder s = new StringBuilder();
 
-        for(int i = 1; i <= 100; i++){
+        for(int i = 1; i <= 10000; i++){
             s.append(i);
         }
-        System.out.println(s);
-
         for(int i = 0; i < s.length(); i++){
             if(s.charAt(i) == '8')
                 cnt++;
         }
-        //System.out.println(cnt);
+        System.out.println(cnt);
 	}
 }
 	
